@@ -1,0 +1,17 @@
+/* Global attributes */
+
+:root {
+	--nw-red: #f72210;
+	--nw-menu-icon: #fb9b93;
+	--nw-login-icon: #fdc8c3;
+	--nw-yellow: #ffe400;
+	--white: #fff;
+	--nw-gray-bg: #f4f5f6;
+	--nw-gray-titles: #9a9a9a;
+	--nw-gray-header: #807f84;
+	--black: #000;
+}
+
+body {
+	background: var(--nw-gray-bg);
+}
