@@ -24,9 +24,18 @@ body {
 
 .m88block {
   background: var(--nw-red);
-  max-width: 1290px;
-  padding: 0 10px;
+  width: 1310px;
   position: relative;
+}
+
+.m88block-small {
+  background: var(--nw-red);
+  width: 100%;
+  position: relative;
+}
+
+.m88small__navbar {
+
 }
 
 .arial {
@@ -63,6 +72,8 @@ body {
 
 .m88first__nav {
   position: relative;
+  width: 1310px;
+  display: none;
 }
 
 .m88search {
@@ -74,6 +85,9 @@ body {
   left: 1rem;
 }
 
+.m88second__nav {
+  width: 1310px;
+}
 @media screen and (min-width: 992px) {
   .m88small__navbar {
     display: none;
@@ -81,6 +95,10 @@ body {
 
   .m88large__navbar {
     display: inline;
+  }
+
+  .m88first__nav {
+    display: flex;
   }
 }
 
