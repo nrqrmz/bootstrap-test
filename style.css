@@ -15,3 +15,59 @@
 body {
 	background: var(--nw-gray-bg);
 }
+
+/* Navbar */
+
+.m88large__navbar {
+  display: none;
+}
+
+.m88block {
+  background: var(--nw-red);
+  max-width: 1290px;
+  padding: 0 10px;
+  position: relative;
+}
+
+.arial {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.fa-user {
+  color: var(--nw-login-icon);
+}
+
+.fa-bars {
+  color: var(--nw-menu-icon);
+}
+
+.nw__logo-small {
+  width: 150px;
+}
+
+.m88btn-small {
+  letter-spacing: -0.05rem;
+  font-size: 0.8rem;
+}
+
+.nw__logo-large {
+  width: 430px;
+}
+
+.m88login {
+  margin: 0;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .m88small__navbar {
+    display: none;
+  }
+
+  .m88large__navbar {
+    display: inline;
+  }
+}
+
